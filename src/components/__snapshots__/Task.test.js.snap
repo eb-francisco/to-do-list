@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Task should render correcly 1`] = `
+"<div>
+  <Form inline={false}>
+    <FormGroup>
+      <FormLabel column={false} srOnly={false}>
+        Name
+      </FormLabel>
+      <FormControl className=\\"input-name\\" onChange={[Function: onChange]} />
+    </FormGroup>
+    <FormGroup>
+      <FormCheck label=\\"Completed\\" className=\\"check-is-completed\\" onChange={[Function]} type=\\"checkbox\\" inline={false} disabled={false} isValid={false} isInvalid={false} title=\\"\\" />
+    </FormGroup>
+    <Button className=\\"btn-remove\\" onClick={[Function: onClick]} variant=\\"primary\\" active={false} disabled={false} type=\\"button\\">
+      Remove task
+    </Button>
+  </Form>
+</div>"
+`;

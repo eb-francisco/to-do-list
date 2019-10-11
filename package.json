@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
     "react-scripts": "3.2.0"
   },
   "scripts": {
@@ -26,6 +27,19 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest-cli": "^23.6.0",
+    "react-dom": "^16.10.2",
+    "react-test-renderer": "^16.10.2"
+  },
+  "jest":{
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
     ]
   }
 }
